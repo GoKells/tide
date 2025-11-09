@@ -1,0 +1,62 @@
+# Binaries
+/bin/
+/build/
+/dist/
+/out/
+/example/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+/*.test
+
+# Go build cache and modules
+*.log
+*.out
+*.test
+*.prof
+*.cover
+*.coverprofile
+*.cov
+*.pprof
+*.profraw
+*.tmp
+
+# Dependency directories
+vendor/
+go.work
+go.work.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Bubble Tea and termui app data
+/data/
+.cache/
+.history/
+.env
+.env.local
+
+# User config or temporary files
+*.lock
+*.pid
+*.seed
+*.log
+*.db
+
+# Testing
+coverage.txt
+test-results/
